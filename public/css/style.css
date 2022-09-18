@@ -15,7 +15,7 @@ body{
 }
 .drag-area{
   border: 2px dashed #fff;
-  height: 300px;
+  height: 200px;
   width: 500px;
   border-radius: 5px;
   display: flex;
@@ -23,9 +23,16 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+.textColor{
+    color: rgb(241, 227, 227);
+}
+.textTitle{
+    color: rgb(241, 227, 227);
+    margin: 25px;
+}
 .drag-name{
     border: 2px dashed #fff;
-    height: 200px;
+    height: 100px;
     width: 500px;
     border-radius: 5px;
     display: flex;
@@ -33,8 +40,16 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.margin{
+.button{
+    height: 100px;
+    width: 500px;
     display: flex;
+    padding-top: 15px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+  }
+.styleButton{
+    width: 100px;
+    height: 50px;
 }
