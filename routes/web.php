@@ -25,5 +25,8 @@ Route::get('/', function () {
 });
 
 Route::get('/index_u', [App\Http\Controllers\VideoController::class, 'index']);
+Route::get('/index_u/{id}', [App\Http\Controllers\VideoController::class, 'edit']);
 Route::get('/fetch_video', [App\Http\Controllers\VideoController::class, 'fetch']);
 Route::post('/insert_video',[App\Http\Controllers\VideoController::class,'insert'])->name('insert.file');
+Route::post('/update_video/{id}',[App\Http\Controllers\VideoController::class,'update'])->name('update.file');
+Route::get('/delete_video/{id}',[App\Http\Controllers\VideoController::class,'delete'])->name('delete.file');

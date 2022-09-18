@@ -15,11 +15,26 @@ body{
 }
 .drag-area{
   border: 2px dashed #fff;
-  height: 500px;
-  width: 700px;
+  height: 300px;
+  width: 500px;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.drag-name{
+    border: 2px dashed #fff;
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.margin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
